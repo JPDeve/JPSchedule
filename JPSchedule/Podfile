@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+pod "AFNetworking"
+pod 'SVProgressHUD', '~> 0.9'
+pod "ReactiveCocoa"
+pod "SSKeychain"
+pod "ObjectiveRecord"
+pod "SDWebImage"
+pod 'XMPPFramework', '~> 3.6.4'
+pod 'SBJson', '~> 4.0.0'
+pod 'Reachability'
+pod 'DTAlertView'
