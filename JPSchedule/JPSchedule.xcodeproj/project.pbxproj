@@ -23,7 +23,7 @@
 		CE204C39199794BB00A6FDDB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE204C1D199794BB00A6FDDB /* CoreData.framework */; };
 		CE204C41199794BB00A6FDDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE204C3F199794BB00A6FDDB /* InfoPlist.strings */; };
 		CE204C43199794BB00A6FDDB /* JPScheduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE204C42199794BB00A6FDDB /* JPScheduleTests.m */; };
-		CE204C53199796B500A6FDDB /* MPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CE204C52199796B500A6FDDB /* MPNetwork.m */; };
+		CE204C53199796B500A6FDDB /* JPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CE204C52199796B500A6FDDB /* JPNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		CE204C3E199794BB00A6FDDB /* JPScheduleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JPScheduleTests-Info.plist"; sourceTree = "<group>"; };
 		CE204C40199794BB00A6FDDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE204C42199794BB00A6FDDB /* JPScheduleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPScheduleTests.m; sourceTree = "<group>"; };
-		CE204C51199796B500A6FDDB /* MPNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNetwork.h; sourceTree = "<group>"; };
-		CE204C52199796B500A6FDDB /* MPNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNetwork.m; sourceTree = "<group>"; };
+		CE204C51199796B500A6FDDB /* JPNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNetwork.h; sourceTree = "<group>"; };
+		CE204C52199796B500A6FDDB /* JPNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNetwork.m; sourceTree = "<group>"; };
 		CE204C541997B04600A6FDDB /* JPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPConstants.h; sourceTree = "<group>"; };
 		D8C340FFA5144A45B501326C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -200,8 +200,8 @@
 		CE204C50199795DF00A6FDDB /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
-				CE204C51199796B500A6FDDB /* MPNetwork.h */,
-				CE204C52199796B500A6FDDB /* MPNetwork.m */,
+				CE204C51199796B500A6FDDB /* JPNetwork.h */,
+				CE204C52199796B500A6FDDB /* JPNetwork.m */,
 			);
 			name = NetWork;
 			path = Utils/NetWork;
@@ -339,7 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE204C2D199794BB00A6FDDB /* JPSchedule.xcdatamodeld in Sources */,
-				CE204C53199796B500A6FDDB /* MPNetwork.m in Sources */,
+				CE204C53199796B500A6FDDB /* JPNetwork.m in Sources */,
 				CE204C2A199794BB00A6FDDB /* JPAppDelegate.m in Sources */,
 				CE204C26199794BB00A6FDDB /* main.m in Sources */,
 			);
